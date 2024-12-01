@@ -1,0 +1,14 @@
+<!-- Toolbar -->
+<mat-toolbar color="primary" class="app-header">
+  <div><a href="Home" target="_blank" class="positronx">Welcome To Beauty Store!</a></div>
+  <span class="nav-tool-items left-items">
+    <a mat-button routerLink="login" routerLinkActive="active">Log in</a>
+    <a mat-button mat-raised-button routerLink="register" routerLinkActive="active">Register</a>
+  </span>
+  <span class="nav-tool-items center-items">
+    <a mat-button routerLink="Home" routerLinkActive="active">Home</a>
+    <a mat-button routerLink="about" routerLinkActive="active">About</a>
+    <a mat-button routerLink="contact" routerLinkActive="active">Contact</a>
+  </span>
+  
+<router-outlet></router-outlet>
